@@ -61,6 +61,8 @@ Refer to the sample output for formatting specifications.
 
 ## Python
 ``` py []
+import ast
+def searchMatrix(matrix, target):
     m, n = len(matrix), len(matrix[0])
     left, right = 0, m * n - 1
     while left <= right:
