@@ -28,6 +28,7 @@ head = 1 2 3 4 5 (size = 5), k = 3
 **Output:**  
 3 2 1 4 5
 
+![Reverse Nodes in k-Group Example](https://assets.leetcode.com/uploads/2020/10/03/reverse_ex2.jpg)
 ---
 
 ## Input Format
