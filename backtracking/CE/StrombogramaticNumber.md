@@ -91,13 +91,14 @@ class StroboGrammer {
         List<String> res = new ArrayList<>();
 
         for (String s : subList) {
-            // Only add "0...0" if it's not the outermost layer
-            if (n != total) res.add("0" + s + "0");
 
             res.add("1" + s + "1");
             res.add("8" + s + "8");
             res.add("6" + s + "9");
             res.add("9" + s + "6");
+            
+            // Only add "0...0" if it's not the outermost layer
+            if (n != total) res.add("0" + s + "0");
         }
 
         return res;
